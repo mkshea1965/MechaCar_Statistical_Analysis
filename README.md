@@ -23,9 +23,15 @@ For the total lots, the current manufacturing data's variance is below the thres
 ### In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 ![d3_1](https://user-images.githubusercontent.com/88520929/143722828-82ae8015-c8ea-45c9-998d-dd6600b72cfa.PNG)
 ![d3_2](https://user-images.githubusercontent.com/88520929/143722829-44456f17-a655-46b9-aae6-5668cd46fb7e.PNG)
+For the total lots' t-test, the p-value is greater than the alpha value of 0.05. Therefore, we fail to reject the null hypothesis being the true mean is equal to 1500. For the lot 1's t-test, the p-value is greater than the alpha value of 0.05. Therefore, we fail to reject the null hypothesis being the true mean is equal to 1500. For the lot 2's t-test, the p-value is greater than the alpha value of 0.05. Therefore, we fail to reject the null hypothesis being the true mean is equal to 1500. For the lot 3's t-test, the p-value is less than the alpha value of 0.05. Therefore, we reject the null hypothesis being the true mean is equal to 1500.
 
 ## Deliverable 4: Study Design: Comparing the MechaCar to the Competition
 ### What metric or metrics are you going to test?
+In our study, we will test highway fuel efficiency as environmental concerns are growing among vehicle consumers.
 ### What is the null hypothesis or alternative hypothesis?
+Null Hypothesis: MechaCar's prototypes average fuel efficiency equals the competitor's prototypes fuel efficiency.
+Alternate Hypothesis: MechaCar's prototypes average fuel efficiency does not equal the competitor's prototypes fuel efficiency.
 ### What statistical test would you use to test the hypothesis? And why?
+Two-sample t-test.
 ### What data is needed to run the statistical test?
+We would need to collect average fuel efficiencies of prototypes for both MechCar and its competitor.
