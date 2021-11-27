@@ -50,4 +50,3 @@ t.test(lot2$PSI,mu=1500)
   # c. 
 lot3 <- subset(mecha_coil, Manufacturing_Lot=="Lot3")
 t.test(lot3$PSI,mu=1500)
-
